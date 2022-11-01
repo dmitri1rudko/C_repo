@@ -12,5 +12,9 @@ void updateStruct(struct Person *p, int age) {
 int main() {
     struct Person lowlevellearning;
     updateStruct(&lowlevellearning, 69);
+    printf("%d\n", lowlevellearning.age);
+    struct Person anotherPerson;
+    updateStruct(&anotherPerson, 96);
+    printf("%d", anotherPerson.age);
 
 }
