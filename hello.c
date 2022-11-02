@@ -5,7 +5,6 @@ int main() {
 	int * pX = &x;
 	int y = *pX;
 	x = 4;
-	x = 5;
 	printf("x = %d\n *pX = %d\n y = %d\n x = %d", x, pX, y, x);
 	return 0;
 }
