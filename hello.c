@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 	int x = 1234;
 	int * pX = &x;
 	int y = *pX;
